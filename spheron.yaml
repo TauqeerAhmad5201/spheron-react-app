@@ -1,0 +1,8 @@
+version: "1.0"
+projectName: my-spheron-app
+services:
+  - name: react-app
+    build:
+      image: my-spheron-app
+      context: .
+      dockerfile: Dockerfile
